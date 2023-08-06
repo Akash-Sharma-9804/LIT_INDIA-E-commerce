@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navigation {
+    height: 80px;
+    background-image: linear-gradient(rgb(253, 234, 171), rgb(236, 175, 96));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    padding-right: 0%;
+}
+
+.nav-left a:hover{
+    cursor: pointer;
+    text-decoration: overline underline;
+    text-decoration-thickness: 2px;
+
+   
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 27px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    font-size: 15px;
+    margin: 0 12px;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.nav-right {
+    right: 50px;
+    position:relative;
+}
+
+.user-pic{
+    width: 50px;
+    border: 50%;
+    cursor: pointer;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 350px;
+    right: -50px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5;
+}
+
+.sub-menu-wrap.open-menu{
+    max-height: 455px;
+}
+
+.sub-menu{
+    background: #fff;
+    padding: 15px;
+    margin: 15px ;
+    margin-right: 3px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-menu-link p{
+    width: 100%;
+
+}
+
+
+.sub-menu-link img{
+    width: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+    
+}
+
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+    
+}
+
+.sub-menu-link:hover span{
+    transform: translateX(spx);
+}
+
+.sub-menu-link:hover p{
+    font-weight: 600;
+
+}
+
+
+---------------------------------------------
+
+.container2 {
+   width: 100%;
+    margin: 0;
+    padding: 10px;
+    color: black;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
