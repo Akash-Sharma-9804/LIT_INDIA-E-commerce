@@ -46,7 +46,7 @@
                 </form>
               </div>
             <div id="container">
-              <h2>Share Books, Share Knowledge, Save Ecosystem</h2>
+              <h2>Share Books, Share Knowledge, Save Ecosystems</h2>
               <p>"LIT" dosen't have to mean "new and expensive".</p>
               <a href="product.html" class="btn">Explore</a>
             </div>
